@@ -1,0 +1,7 @@
+{
+  "name": "TradingView - Track All Markets",
+  "description": "Where the world does markets. Real-time market data, interactive financial charts, community trading ideas, stock screener, and broker integrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --tv-black: #000000;
+    --tv-card: #131722;
+    --tv-card-hover: #1e222d;
+    --tv-border: #2a2e39;
+    --tv-border-light: #363a45;
+    --tv-muted: #787b86;
+    --tv-green: #089981;
+    --tv-red: #f23645;
+    --tv-blue: #2962ff;
+    --tv-blue-hover: #1e53e5;
+  }
+
+  body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hero-glow {
+  background: radial-gradient(circle at 50% 30%, rgba(41, 98, 255, 0.08) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
